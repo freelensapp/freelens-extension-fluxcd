@@ -10,7 +10,7 @@ importers:
     devDependencies:
       '@electron-toolkit/tsconfig':
         specifier: ^1.0.1
-        version: 1.0.1(@types/node@22.15.24)
+        version: 1.0.1(@types/node@22.15.29)
       '@freelensapp/extensions':
         specifier: ^1.3.1
         version: 1.3.1(@emotion/react@11.14.0(@types/react@17.0.87)(react@17.0.2))(@types/react@17.0.87)
@@ -18,8 +18,8 @@ importers:
         specifier: ^2.9.41
         version: 2.9.41
       '@types/node':
-        specifier: ^22.15.24
-        version: 22.15.24
+        specifier: ^22.15.29
+        version: 22.15.29
       '@types/react':
         specifier: ^17.0.87
         version: 17.0.87
@@ -28,10 +28,10 @@ importers:
         version: 5.3.3
       '@vitejs/plugin-react':
         specifier: ^4.5.0
-        version: 4.5.0(vite@6.3.5(@types/node@22.15.24)(less@4.3.0)(sass@1.89.0)(stylus@0.62.0)(terser@5.39.1))
+        version: 4.5.0(vite@6.3.5(@types/node@22.15.29)(less@4.3.0)(sass@1.89.0)(stylus@0.62.0)(terser@5.39.1))
       electron-vite:
         specifier: ^3.1.0
-        version: 3.1.0(vite@6.3.5(@types/node@22.15.24)(less@4.3.0)(sass@1.89.0)(stylus@0.62.0)(terser@5.39.1))
+        version: 3.1.0(vite@6.3.5(@types/node@22.15.29)(less@4.3.0)(sass@1.89.0)(stylus@0.62.0)(terser@5.39.1))
       js-base64:
         specifier: ^3.7.7
         version: 3.7.7
@@ -58,7 +58,7 @@ importers:
         version: 5.8.3
       vite:
         specifier: ^6.3.5
-        version: 6.3.5(@types/node@22.15.24)(less@4.3.0)(sass@1.89.0)(stylus@0.62.0)(terser@5.39.1)
+        version: 6.3.5(@types/node@22.15.29)(less@4.3.0)(sass@1.89.0)(stylus@0.62.0)(terser@5.39.1)
       vite-plugin-external:
         specifier: ^6.2.2
         version: 6.2.2
@@ -992,8 +992,8 @@ packages:
   '@types/node-forge@1.3.11':
     resolution: {integrity: sha512-FQx220y22OKNTqaByeBGqHWYz4cl94tpcxeFdvBo3wjG6XPBuZ0BNgNZRV5J5TFmmcsJ4IzsLkmGRiQbnYsBEQ==}
 
-  '@types/node@22.15.24':
-    resolution: {integrity: sha512-w9CZGm9RDjzTh/D+hFwlBJ3ziUaVw7oufKA3vOFSOZlzmW9AkZnfjPb+DLnrV6qtgL/LNmP0/2zBNCFHL3F0ng==}
+  '@types/node@22.15.29':
+    resolution: {integrity: sha512-LNdjOkUDlU1RZb8e1kOIUpN1qQUlzGkEtbVNo53vbrwDg5om6oduhm4SiUaPW5ASTXhAiP0jInWG8Qx9fVlOeQ==}
 
   '@types/parse-json@4.0.2':
     resolution: {integrity: sha512-dISoDXWWQwUquiKsyZ4Ng+HX2KsPL7LyHKHQwgGFEA3IaKac4Obd+h2a/a6waisAoepJlBcx9paWqjA8/HVjCw==}
@@ -2961,9 +2961,9 @@ snapshots:
       enabled: 2.0.0
       kuler: 2.0.0
 
-  '@electron-toolkit/tsconfig@1.0.1(@types/node@22.15.24)':
+  '@electron-toolkit/tsconfig@1.0.1(@types/node@22.15.29)':
     dependencies:
-      '@types/node': 22.15.24
+      '@types/node': 22.15.29
 
   '@electron/get@2.0.3':
     dependencies:
@@ -4034,7 +4034,7 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.0.4
       '@types/keyv': 3.1.4
-      '@types/node': 22.15.24
+      '@types/node': 22.15.29
       '@types/responselike': 1.0.3
 
   '@types/chart.js@2.9.41':
@@ -4050,7 +4050,7 @@ snapshots:
   '@types/fs-extra@11.0.4':
     dependencies:
       '@types/jsonfile': 6.1.4
-      '@types/node': 22.15.24
+      '@types/node': 22.15.29
 
   '@types/history@4.7.11': {}
 
@@ -4063,19 +4063,19 @@ snapshots:
 
   '@types/jsonfile@6.1.4':
     dependencies:
-      '@types/node': 22.15.24
+      '@types/node': 22.15.29
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 22.15.24
+      '@types/node': 22.15.29
 
   '@types/ms@2.1.0': {}
 
   '@types/node-forge@1.3.11':
     dependencies:
-      '@types/node': 22.15.24
+      '@types/node': 22.15.29
 
-  '@types/node@22.15.24':
+  '@types/node@22.15.29':
     dependencies:
       undici-types: 6.21.0
 
@@ -4121,7 +4121,7 @@ snapshots:
 
   '@types/responselike@1.0.3':
     dependencies:
-      '@types/node': 22.15.24
+      '@types/node': 22.15.29
 
   '@types/scheduler@0.16.8': {}
 
@@ -4132,10 +4132,10 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 22.15.24
+      '@types/node': 22.15.29
     optional: true
 
-  '@vitejs/plugin-react@4.5.0(vite@6.3.5(@types/node@22.15.24)(less@4.3.0)(sass@1.89.0)(stylus@0.62.0)(terser@5.39.1))':
+  '@vitejs/plugin-react@4.5.0(vite@6.3.5(@types/node@22.15.29)(less@4.3.0)(sass@1.89.0)(stylus@0.62.0)(terser@5.39.1))':
     dependencies:
       '@babel/core': 7.27.1
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.27.1)
@@ -4143,7 +4143,7 @@ snapshots:
       '@rolldown/pluginutils': 1.0.0-beta.9
       '@types/babel__core': 7.20.5
       react-refresh: 0.17.0
-      vite: 6.3.5(@types/node@22.15.24)(less@4.3.0)(sass@1.89.0)(stylus@0.62.0)(terser@5.39.1)
+      vite: 6.3.5(@types/node@22.15.29)(less@4.3.0)(sass@1.89.0)(stylus@0.62.0)(terser@5.39.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -4508,7 +4508,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  electron-vite@3.1.0(vite@6.3.5(@types/node@22.15.24)(less@4.3.0)(sass@1.89.0)(stylus@0.62.0)(terser@5.39.1)):
+  electron-vite@3.1.0(vite@6.3.5(@types/node@22.15.29)(less@4.3.0)(sass@1.89.0)(stylus@0.62.0)(terser@5.39.1)):
     dependencies:
       '@babel/core': 7.27.1
       '@babel/plugin-transform-arrow-functions': 7.27.1(@babel/core@7.27.1)
@@ -4516,7 +4516,7 @@ snapshots:
       esbuild: 0.25.4
       magic-string: 0.30.17
       picocolors: 1.1.1
-      vite: 6.3.5(@types/node@22.15.24)(less@4.3.0)(sass@1.89.0)(stylus@0.62.0)(terser@5.39.1)
+      vite: 6.3.5(@types/node@22.15.29)(less@4.3.0)(sass@1.89.0)(stylus@0.62.0)(terser@5.39.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -4528,7 +4528,7 @@ snapshots:
   electron@35.5.0:
     dependencies:
       '@electron/get': 2.0.3
-      '@types/node': 22.15.24
+      '@types/node': 22.15.29
       extract-zip: 2.0.1
     transitivePeerDependencies:
       - supports-color
@@ -5851,7 +5851,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  vite@6.3.5(@types/node@22.15.24)(less@4.3.0)(sass@1.89.0)(stylus@0.62.0)(terser@5.39.1):
+  vite@6.3.5(@types/node@22.15.29)(less@4.3.0)(sass@1.89.0)(stylus@0.62.0)(terser@5.39.1):
     dependencies:
       esbuild: 0.25.4
       fdir: 6.4.4(picomatch@4.0.2)
@@ -5860,7 +5860,7 @@ snapshots:
       rollup: 4.40.2
       tinyglobby: 0.2.13
     optionalDependencies:
-      '@types/node': 22.15.24
+      '@types/node': 22.15.29
       fsevents: 2.3.3
       less: 4.3.0
       sass: 1.89.0
