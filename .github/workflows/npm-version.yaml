@@ -6,7 +6,10 @@ on:
       newversion:
         description: New version (X.Y.Z | major | minor | patch | premajor | preminor | prepatch | prerelease)
         required: true
-        default: patch
+        default: prerelease
+  release:
+    types:
+      - released
 
 permissions:
   contents: write
@@ -69,7 +72,7 @@ jobs:
           jq -r .version package.json > .github/version.log
           sed -e 's/\x1b\[[0-9;]*m//g' .github/update.log > .github/pr_body.log
         env:
-          newversion: ${{ github.event.inputs.newversion }}
+          newversion: ${{ github.event.inputs.newversion || 'prerelease' }}
 
       - name: Update pnpm dependencies
         id: update-pnpm
@@ -94,7 +97,7 @@ jobs:
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           default_author: github_actions
-          message: Automated npm version ${{ github.event.inputs.newversion }}
+          message: Automated npm version ${{ github.event.inputs.newversion || 'prerelease' }}
           new_branch: automated/npm-version
           fetch: false
           push: origin automated/npm-version --set-upstream --force
